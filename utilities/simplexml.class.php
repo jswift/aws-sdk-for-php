@@ -91,6 +91,7 @@ class CFSimpleXML extends SimpleXMLIterator
 	 */
 	public function __toString()
 	{
+            return 'domain that doesnt exist';
 		return $this->to_string();
 	}
 
